@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Survey for Product X</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+	<div class="survey">
+		<form>
+			<h1>Survey for Product X</h1>
+			<p>Tu correo se registrará cuando envíes este formulario</p>
+			<p>¿No es tuya la dirección <b>1930376@upv.edu.mx</b> ? <a href="https://accounts.google.com/AccountChooser/signinchooser?continue=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSdClwnPHazaVMQkhJLBCrz7Dfq0RXNiYM8aAuIzSg4kXAZnLw%2Fviewform%3Fusp%3Dsend_form&service=wise&flowName=GlifWebSignIn&flowEntry=AccountChooser" target="_blank">Cambiar cuenta</a></p>
+		</form>
+	</div>
+
+	<div class="correo">
+		<form>
+			<label for="correo"><p>Correo *</p></label>
+			<input type="text" name="correo" id="correo" placeholder="Tu dirección de correo electrónico" required maxlength="70">
+		</form>
+	</div>
+
+	<div class="nombre">
+		<form>
+			<label for="nombre"><p>Name: *</p></label>
+			<input type="text" name="nombre" id="nombre" placeholder="Tu respuesta" required maxlength="40">
+		</form>
+	</div>
+
+	<div class="carros">
+		<form>
+			<p>What car do you prefer</p>
+			<div>
+				<table>
+					<tr>
+						<th><img src="img/car1.jpg" alt="car1"></th>
+						<th><img src="img/car2.jpg" alt="car2"></th>
+					</tr>
+					<trbr>
+						<td><input type="radio" name="car" id="car" required value="1"><label for="">Mini car</label></td>
+						<td><input type="radio" name="car" id="car" required value="2"><label for=""></label>Opción 2</td>
+						
+					</tr>
+
+					<th><img src="img/car3.jpg" alt="car3"></th>
+
+					<tr>
+						<td><input type="radio" name="car" id="car" required value="3"><label for=""></label>Opción 3</td>
+					</tr>
+				</table>
+				
+			</div>
+		</form>
+	</div>
+
+	<div class="boton">
+		<form>
+			<button><a href="pagina2.html" style="text-decoration:none">Siguiente</a></button>
+		</form>
+	</div>
+
+</body>
+</html>

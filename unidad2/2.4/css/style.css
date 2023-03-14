@@ -1,0 +1,36 @@
+body h1{
+  text-align: center;
+  font-family: Arial;
+}
+
+form{
+  width:400px;
+  margin-left: 60px;
+}
+
+form label{
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+form input{
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.botones{
+  text-align: center;
+  font-family: Arial;
+  
+}
+
+.botones a{
+  text-decoration: none;
+  color: black;
+}
+
+body{
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+}

@@ -1,0 +1,157 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #022F40;
+}
+
+.contenido{
+	max-width: 1000px;
+	margin: 0 auto;
+	background-color: #0090C1;
+}
+
+header{
+	display: block;
+	background-color: #38AECC;
+}
+
+header img{
+	width: 20%;
+	margin: 10px;
+	border-radius: 5%;
+}
+
+nav{
+    background-color: #A7CCED;
+    height: 28px;
+    width: 968px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+nav ul li{
+    text-decoration: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.nomheader{
+	font-family: Arial;
+	font-size: 80px;
+	font-weight: 500;
+	text-align: center;
+	display: flex;
+	color: white;
+}
+
+.desheader{
+	font-family: Arial;
+	font-size: 20px;
+	text-align: justify;
+	display: flex;
+	color: white;
+	margin-left: 15px;
+	margin-right: 15px
+}
+
+section{
+	margin-bottom: 20px
+}
+
+section h2{
+	color: black;
+	font-family: Arial;
+	font-size: 45px;
+	border-bottom: 1px solid black;
+}
+
+.contenido-principal{
+	display: flex;
+}
+
+.contenido-principal .main{
+	width: 70%;
+}
+
+.contenido-principal aside{
+	width: 30%;
+}
+
+.main,aside{
+	background-color: white;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 1%;
+}
+
+aside h2{
+	font-family: Arial;
+	font-size: 35px;
+	color: black;
+	margin-bottom: 20px;
+}
+
+.justificado{
+	text-align: justify;
+	font-family: Arial;
+	margin-bottom: 20px;
+}
+
+.main p{
+	text-align: justify;
+	font-family: Arial;
+	margin-bottom: 20px;
+}
+
+.fuente{
+	font-family: Arial;
+	margin-bottom: 20px;
+}
+
+.main ul{
+	list-style: none;
+}
+
+section img{
+	max-width: 100%;
+}
+
+.aside1{
+	margin-bottom: 600px;
+}
+
+.aside2{
+	margin-bottom: 1799px;
+}
+
+.aside3{
+	margin-bottom: 2036px;
+}
+
+.footer{
+	bottom: 0;
+	display: flex;
+	background-color: #ffff;
+	text-align: center;
+	width: 100%;
+	height: 40px;
+}
+
+.footer img{
+	width: 4%;
+}

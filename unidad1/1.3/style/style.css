@@ -1,0 +1,219 @@
+*{
+	font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+
+body{
+	background-color: rgb(255, 240, 217);
+}
+
+img{
+	border: rgb(238, 237, 237) 27px solid;
+	border-width: 1px;
+  	padding: 10px;
+  	text-align: justify;
+	margin-right: 20px;
+}
+
+select{
+	min-width: 140px;
+	min-height: 50px;
+	border: rgb(175, 175, 175) 2px solid
+}
+
+.enlvl form{
+	max-width: 653px;
+	min-height: 120px;
+	margin: 0 auto;
+	background-color: white;
+	font-size: 17px;
+	margin-top: 20px;
+	border-radius: 6px;
+	border-style: 1px solid #ccc;
+	border-top: 9px solid white;
+	border-bottom: 9px solid white;
+	border: 1px solid #ccc;
+}
+
+.enlvl p{
+	color: black;
+	margin-left: 23px;
+}
+
+.opinion form{
+	max-width: 653px;
+	min-height: 220px;
+	margin: 0 auto;
+	background-color: white;
+	font-size: 17px;
+	margin-top: 20px;
+	border-radius: 6px;
+	border-style: 1px solid #ccc;
+	border-top: 9px solid white;
+	border-bottom: 9px solid white;
+	border: 1px solid #ccc;
+}
+
+.none {
+	max-width: 653px;
+	min-height: 100px;
+	margin: 0 auto;
+	background-color: white;
+	font-size: 17px;
+	margin-top: 20px;
+	border-radius: 6px;
+	border-style: 1px solid #ccc;
+	border-top: 9px solid white;
+	border-bottom: 9px solid white;
+	border: 1px solid #ccc;
+}
+
+.date form{
+	max-width: 653px;
+	min-height: 110px;
+	margin: 0 auto;
+	background-color: white;
+	font-size: 17px;
+	margin-top: 20px;
+	border-radius: 6px;
+	border-style: 1px solid #ccc;
+	border-top: 9px solid white;
+	border-bottom: 9px solid white;
+	border: 1px solid #ccc;
+}
+
+.date p{
+	color: black;
+	margin-left: 23px;
+}
+
+.opinion p{
+	color: black;
+	margin-left: 23px;
+}
+
+.opiniondivider{
+	min-width: 20px;
+	margin-left: 36px;
+	margin-right: 36px;
+	background-color: rgb(241, 238, 238);
+}
+
+.sinborde{
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom-color: orange;
+}
+.survey form{
+	max-width: 653px;
+	margin: 0 auto;
+	background-color: white;
+	margin-top: 20px;
+	border-top: 9px solid orange;
+	border-bottom: 9px solid white;
+	border-radius: 6px;
+}
+
+.survey h1{
+	color: black;
+	font-size: 30px;
+	margin-left: 23px;
+}
+
+.survey p{
+	color: black;
+	margin-left: 23px;
+}
+
+.correo form{
+	max-width: 653px;
+	margin: 0 auto;
+	background-color: white;
+	font-size: 17px;
+	margin-top: 20px;
+	border-radius: 6px;
+	border-style: 1px solid #ccc;
+	border-top: 9px solid white;
+	border-bottom: 9px solid white;
+	border: 1px solid #ccc;
+}
+
+.correo p{
+	margin-left: 23px;
+}
+
+.correo input{
+	margin-top: 15px;
+	margin-left: 23px;
+	margin-bottom: 20px;
+	border: 0;
+	width: 40%;
+	border-bottom: 1px solid #ccc;
+}
+
+.nombre form{
+	max-width: 653px;
+	margin: 0 auto;
+	background-color: white;
+	font-size: 17px;
+	margin-top: 20px;
+	border-radius: 6px;
+	border-style: 1px solid #ccc;
+	border-top: 9px solid white;
+	border-bottom: 9px solid white;
+	border: 1px solid #ccc;
+}
+
+.nombre p{
+	margin-left: 23px;
+}
+
+.nombre input{
+	margin-top: 15px;
+	margin-left: 23px;
+	margin-bottom: 20px;
+	border: 0;
+	width: 40%;
+	border-bottom: 1px solid #ccc;
+}
+
+.carros{
+	max-width: 653px;
+	margin: 0 auto;
+	background-color: white;
+	font-size: 17px;
+	margin-top: 20px;
+	border-radius: 6px;
+	border-style: 1px solid #ccc;
+	border-top: 9px solid white;
+	border-bottom: 9px solid white;
+	border: 1px solid #ccc;
+}
+
+.carros p{
+	margin-left: 23px;
+}
+
+.carros table{
+	margin-left: 23px;
+}
+
+.boton form{
+	max-width: 653px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.boton a{
+	color: red;
+	background-color: white;
+}
+
+.boton button{
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	width: 18%;
+	padding: 1.5%;
+	font-size: 15px;
+}

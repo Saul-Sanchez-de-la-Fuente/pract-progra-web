@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-family: Arial;
+}
+
+img{
+	width: 80%;
+	height: 80%;
+	box-shadow: 0 0 10px black;
+	margin-top: 50px;
+	border-radius: 25px;
+}
+
+.carrusel{
+	width: 100%;
+	text-align: center;
+	height: 800px;
+}
+
+.botones{
+	font-size: 30px;
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	border-radius: 50px;
+	background-color: black;
+	text-align: center;
+	font-weight: bold;
+	position: absolute;
+	color: white;
+	box-shadow: 0 0 10px black;
+	-webkit-transition:all .3s ease;
+	-o-transition:all .3s ease;
+	transition: all .3s ease;
+}
+
+.botones:hover{
+	cursor: pointer;
+	transform: scale(1.2,1.2);
+}
+.atras{
+	left: 2%;
+	top: calc(50% - 70px);
+}
+
+.adelante{
+	right: 2%;
+	top: calc(50% - 70px);
+}

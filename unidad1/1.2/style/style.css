@@ -1,0 +1,57 @@
+.fuente{
+	font-family: Arial;
+}
+
+.hora{
+	font-weight: bold;
+}
+
+.tabla{
+	width: 70%;
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+.tabla td{
+	border: 2px solid black;
+
+}
+
+.fondo{
+	background-color: #FFB8A9;
+	border-color: black;
+}
+
+.progweb{
+	background-color: #E3B505;
+}
+
+.ingles{
+	background-color: #95190C;
+}
+
+.lider{
+	background-color: #610345;
+}
+
+.leng{
+	background-color: #044B7F;
+}
+
+.form{
+	background-color: #107E7D;
+}
+
+.inge{
+	background-color: #6622CC;
+}
+
+.fondtotal{
+	background-color: #96C0B7;
+	border: 2px solid black;
+}
+
+.titulo{
+	font-weight: bold;
+	text-align: center;
+}

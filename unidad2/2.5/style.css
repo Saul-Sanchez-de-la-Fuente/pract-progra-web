@@ -1,0 +1,39 @@
+.calculadora{
+	display: block;
+	margin: auto;
+	padding: 20px;
+	background-color: grey;
+	width: 500px;
+	height: 300px;
+	border-radius: 25px;
+	text-align: center;
+}
+
+#resultado{
+	display: block;
+	text-align: center;
+	width: 450px;
+	height: 25px;
+	margin-bottom: 35px;
+}
+
+table input{
+	width: 90px;
+}
+
+table button{
+	width: 90px;
+}
+
+table tr{
+	text-align: center;
+}
+
+body ul{
+	display: inline;
+}
+
+.titulo{
+	text-align: center;
+	font-family: Arial;
+}

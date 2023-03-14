@@ -1,0 +1,36 @@
+*{
+	font-family: Arial;
+}
+
+.titulo{
+	text-align: center;
+	font-family: Arial;
+}
+
+.botones{
+	text-align: center;
+	font-family: Arial;
+	
+}
+
+.botones a{
+	text-decoration: none;
+	color: black;
+}
+
+.valores1{
+	text-align: center;
+}
+
+.centrarboton{
+	text-align: center;
+}
+
+.centrarres{
+	text-align: center;
+	font-size: 150%;
+}
+
+.imagen{
+	text-align: center;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Calculadora-Suma</title>
+</head>
+<body>
+	<h1 class="titulo">Calculadora</h1>
+	<br>
+	<div class="botones">
+		<button name="suma"><a href="suma.html">Suma</a></button>
+		<button name="resta"><a href="resta.html">Resta</a></button>
+		<button name="mult"><a href="mult.html">Mult</a></button>
+		<button name="div"><a href="div.html">Div</a></button>
+		<button name="prom"><a href="prom.html">Prom</a></button>
+		<button name="desv"><a href="desv.html">Desv Std</a></button>
+	</div>
+	<br>
+	<br>
+	<br>
+
+	<form id="sumar" name="" method="post">
+		<div class="valores1">
+			<label>Numero 1</label>
+			<input type="number" name="valor1" id="valor1" autofocus="" placeholder="">
+			<br>
+			<br>
+			<label>Numero 2</label>
+			<input type="number" name="valor2" id="valor2" autofocus="" placeholder="">
+		</div>
+		<br>
+		<br>
+		<div class="centrarboton">
+			<button type="button" onclick="calc();">Calcular</button>
+		</div>
+
+		<div class="centrarres">
+			<p>Resultado: <span id="result"></span></p>
+		</div>
+
+	</form>
+
+
+
+	<script type="text/javascript" src="script_sum.js"></script>
+
+</body>
+</html>

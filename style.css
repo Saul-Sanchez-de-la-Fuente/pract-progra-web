@@ -1,0 +1,116 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #022F40;
+}
+
+.contenido{
+	max-width: 1000px;
+	margin: 0 auto;
+	background-color: #0090C1;
+}
+
+header{
+	display: flex;
+	background-color: #38AECC;
+}
+
+header img{
+	width: 20%;
+	margin: 10px;
+	border-radius: 5%;
+}
+
+header h1{
+	font-family: Arial;
+	font-size: 105px;
+	font-weight: 500;
+	text-align: center;
+	color: white;
+}
+
+nav ul li{
+	list-style: none;
+
+}
+
+nav ul li a{
+	float: left;
+	margin-left: 20px;
+	text-decoration: none;
+	font-family: Arial;
+}
+
+nav ul li a:hover{
+	background-color: red;
+	color: white;
+}
+
+.clearfix{
+	clear: both;
+}
+
+section{
+	margin-bottom: 20px
+}
+
+section h2{
+	color: black;
+	font-family: Arial;
+	font-size: 45px;
+	border-bottom: 1px solid black;
+}
+
+.contenido-principal{
+	display: flex;
+}
+
+.contenido-principal .main{
+	width: 70%;
+}
+
+.contenido-principal aside{
+	width: 30%;
+}
+
+.main,aside{
+	background-color: white;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 1%;
+}
+
+aside h2{
+	font-family: Arial;
+	font-size: 35px;
+	color: black;
+	margin-bottom: 20px;
+}
+
+.justificado{
+	text-align: justify;
+	font-family: Arial;
+	margin-bottom: 20px;
+}
+
+.main p{
+	text-align: justify;
+	font-family: Arial;
+	margin-bottom: 20px;
+}
+
+.fuente{
+	font-family: Arial;
+	margin-bottom: 20px;
+}
+
+.main ul{
+	list-style: none;
+}
+
+aside img{
+	width: 45%;
+}
